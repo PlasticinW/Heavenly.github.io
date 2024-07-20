@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Heavenly.github.io/static/css/main.7bedc2f0.css",
+    "main.js": "/Heavenly.github.io/static/js/main.4d48972d.js",
+    "static/js/453.a3f5077f.chunk.js": "/Heavenly.github.io/static/js/453.a3f5077f.chunk.js",
+    "static/media/сакура.jpg": "/Heavenly.github.io/static/media/сакура.b2ce71110957da0de669.jpg",
+    "index.html": "/Heavenly.github.io/index.html",
+    "main.7bedc2f0.css.map": "/Heavenly.github.io/static/css/main.7bedc2f0.css.map",
+    "main.4d48972d.js.map": "/Heavenly.github.io/static/js/main.4d48972d.js.map",
+    "453.a3f5077f.chunk.js.map": "/Heavenly.github.io/static/js/453.a3f5077f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bedc2f0.css",
+    "static/js/main.4d48972d.js"
+  ]
+}
