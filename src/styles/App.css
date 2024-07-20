@@ -1,0 +1,187 @@
+:root {
+    --color-pink: #DF5DB3;
+    --background-black-opacity: rgb(0, 0, 0, 65%);
+}
+
+a.link {
+    color: var(--color-pink);
+    text-decoration: none;
+    transition: opacity .25s ease;
+}
+
+a.link:hover {
+    opacity: 0.7;
+}
+
+.header {
+    height: 100vh;
+    background: url("../images/сакура.jpg") no-repeat center;
+    /*clip-path: ellipse(1920px 1080px at 1% 2%);*/
+    /*clip-path: circle(49.9% at 50% 50%);*/
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 70px;
+    background: var(--background-black-opacity);
+    color: #fff;
+}
+
+.header-top a.link {
+    color: #fff;
+}
+
+.logo {
+    font-size: 36px;
+    margin-right: 30px;
+    color: #fff;
+}
+
+.switcher {
+    margin-left: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-element {
+    margin-right: 50px;
+}
+
+.menu-element:last-child {
+    margin-right: 0px;
+}
+
+.menu-element a.link.active, .menu-element a.link:hover {
+    color: var(--color-pink);
+}
+
+.switcher {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 90px;
+    padding: 0 10px;
+
+    background: var(--color-pink);
+    border-radius: 20px;
+    opacity: .9;
+
+    transition: opacity .25s ease;
+    cursor: pointer;
+}
+
+.switcher:hover {
+    opacity: 1;
+}
+
+.switcher:before {
+    content: "";
+    width: 40px;
+    height: 30px;
+    background: #fff;
+    position: absolute;
+    left: 42px;
+    z-index: 1;
+    border-radius: 20px;
+    
+    transition: left .25s ease;
+}
+
+#lang:checked + .switcher:before {
+    left: 7px;
+}
+
+#lang:checked + .switcher span:first-child {
+    color: var(--color-pink);
+}
+
+#lang:checked + .switcher span:last-child {
+    color: #fff;
+}
+
+.switcher span {
+    flex: 1 1 50%;
+
+    text-align: center;
+    color: var(--color-pink);
+    transition: color .25s ease;
+
+    z-index: 2;
+}
+
+.switcher span:first-child {
+    color: #fff;
+}
+
+#lang {
+    display: none;
+}
+
+.menu-element__link {
+    font-size: 24px;
+}
+
+.header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 70px);
+
+
+    color: #fff;
+}
+
+.header-center__wrapper {
+    width: 100%;
+    background: var(--background-black-opacity);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.name {
+    font-size: 56px;
+    line-height: 62px;
+}
+
+.description {
+    display: inline-block;
+    width: 83ch;
+
+    font-size: 24px;
+    line-height: 1.5em;
+    font-family: Courier, monospace;
+    white-space: nowrap;
+
+    border-right: 3px solid transparent;
+
+    overflow: hidden;
+
+    animation: cursor 0.75s 8, print-text 5s  steps(83);
+}
+
+@keyframes cursor {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #fff;
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+
+@keyframes print-text {
+    from {
+        width: 0;
+    }
+}

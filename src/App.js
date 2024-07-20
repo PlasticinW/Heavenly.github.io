@@ -1,39 +1,51 @@
-import './styles/main.css'
+import './styles/App.css'
+import './styles/reset.css'
 
 function App() {
   return (
     <div className="App">
-      <header class="header">
+      <header class="header" id="home">
         <div class="header-top">
-          <span className="logo">Heavenly</span>
-          <nav className="navigation">
-            <ul className="menu">
-              <li className="menu-element">
-                <a className="menu-element__link" href="">Home</a>
-              </li>
-              <li className="menu-element">
-                <a className="menu-element__link" href="">About</a>
-              </li>
-              <li className="menu-element">
-                <a className="menu-element__link" href="">Skills</a>
-              </li>
-              <li className="menu-element">
-                <a className="menu-element__link" href="">Interests</a>
-              </li>
-              <li className="menu-element">
-                <a className="menu-element__link" href="">Contact me</a>
-              </li>
-            </ul>
-          </nav>
-          <div className="switcher">Ru/Eng</div>
+          <a href="" className="link logo">Мальцев&nbsp;Владислав</a>
+
+            <nav className="navigation">
+              <ul className="menu">
+                <li className="menu-element">
+                  <a className="link menu-element__link active" href="#home">Главная</a>
+                </li>
+                <li className="menu-element">
+                  <a className="link menu-element__link" href="#about-me">Обо&nbsp;мне</a>
+                </li>
+                <li className="menu-element">
+                  <a className="link menu-element__link" href="#skills">Навыки</a>
+                </li>
+                <li className="menu-element">
+                  <a className="link menu-element__link" href="#interests">Интересы</a>
+                </li>
+                <li className="menu-element">
+                  <a className="link menu-element__link" href="#contact-me">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          <div className="switcher-container">
+            <div className="switcher-wrapper">
+              <input type="checkbox" id="lang" defaultChecked />
+              <label className="switcher" htmlFor="lang">
+                <span>Ru</span>
+                <span>Eng</span>
+              </label>
+            </div>
+          </div>
         </div>
         <div className="header-center">
-          <h1 className="name">Мальцев Владислав</h1>
-          <p className="description">Привет! Меня зовут Владислав. Я интерсуюсь программированием, давайте знакомиться!</p>
+          <div className="header-center__wrapper">
+            <h1 className="name">Мальцев&nbsp;Владислав</h1>
+            <p className="description">Привет! Меня зовут Владислав. Я интерсуюсь программированием, давайте знакомиться!</p>
+          </div>
         </div>
       </header>
 
-      <section className="about-me">
+      <section className="about-me" id="about-me">
         <div className="left">
           <img src="" alt="Avatar" />
         </div>
@@ -69,7 +81,7 @@ function App() {
         </div>
       </section>
 
-      <section className="skills">
+      <section className="skills" id="skills">
         <h2 className="second-title">Навыки</h2>
         
         <p className="section-description">Все оценки субъективны и показывают уровень, который как
@@ -107,7 +119,7 @@ function App() {
         </div>
       </section>
 
-      <section className="interests">
+      <section className="interests" id="interests">
         <h2 className="second-title">Интересы</h2>
 
         <div className="interest-wrapper">
@@ -145,7 +157,7 @@ function App() {
         </div>
       </section>
 
-      <section className="contact-me">
+      <section className="contact-me" id="contact-me">
         <h2 className="second-title">Обратная связь</h2>
 
         <form action="" className="contact-me__form">
@@ -170,10 +182,10 @@ function App() {
       <footer className="footer">
         <ul className="socials">
           <li className="social-element">
-            <a href="https://vk.com/plasticinw" target="_blank" className="social-element__link">VK</a>
+            <a href="https://vk.com/plasticinw" target="_blank" className="link social-element__link">VK</a>
           </li>
           <li className="social-element">
-            <a href="https://t.me/PlasticinW" target="_blank" className="social-element__link">TG</a>
+            <a href="https://t.me/PlasticinW" target="_blank" className="link social-element__link">TG</a>
           </li>
         </ul>
         <p className="footer-about">
