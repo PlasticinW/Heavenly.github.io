@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/Heavenly.github.io/static/css/main.7bedc2f0.css",
-    "main.js": "/Heavenly.github.io/static/js/main.4d48972d.js",
-    "static/js/453.a3f5077f.chunk.js": "/Heavenly.github.io/static/js/453.a3f5077f.chunk.js",
-    "static/media/сакура.jpg": "/Heavenly.github.io/static/media/сакура.b2ce71110957da0de669.jpg",
+    "main.css": "/Heavenly.github.io/static/css/main.19a141d5.css",
+    "main.js": "/Heavenly.github.io/static/js/main.6d16f81c.js",
+    "static/media/programming.webp": "/Heavenly.github.io/static/media/programming.6102360f13b4a10b6b8a.webp",
+    "static/media/Im1.webp": "/Heavenly.github.io/static/media/Im1.da9974b9f16bc1b340ed.webp",
+    "static/media/placebo.webp": "/Heavenly.github.io/static/media/placebo.b1f1a3e09a56d4de4caa.webp",
+    "static/media/Sakura.webp": "/Heavenly.github.io/static/media/Sakura.0fd4966a1092d7eab7fa.webp",
+    "static/media/computer-games.webp": "/Heavenly.github.io/static/media/computer-games.a47d19ea9b9388acbbd4.webp",
+    "static/media/youtube.webp": "/Heavenly.github.io/static/media/youtube.e6eb470fea3234e0cca3.webp",
+    "static/media/twitch.webp": "/Heavenly.github.io/static/media/twitch.19a908b1c176adacf264.webp",
     "index.html": "/Heavenly.github.io/index.html",
-    "main.7bedc2f0.css.map": "/Heavenly.github.io/static/css/main.7bedc2f0.css.map",
-    "main.4d48972d.js.map": "/Heavenly.github.io/static/js/main.4d48972d.js.map",
-    "453.a3f5077f.chunk.js.map": "/Heavenly.github.io/static/js/453.a3f5077f.chunk.js.map"
+    "main.19a141d5.css.map": "/Heavenly.github.io/static/css/main.19a141d5.css.map",
+    "main.6d16f81c.js.map": "/Heavenly.github.io/static/js/main.6d16f81c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bedc2f0.css",
-    "static/js/main.4d48972d.js"
+    "static/css/main.19a141d5.css",
+    "static/js/main.6d16f81c.js"
   ]
 }
