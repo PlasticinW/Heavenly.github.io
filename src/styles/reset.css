@@ -40,8 +40,10 @@ img {
 	vertical-align: top;
 }
 
-img, svg {
-	max-width: 100%;
+svg {
+	max-width: 72px;
+	min-width: 24px;
+	min-height: 24px;
 	height: auto;
 }
 
