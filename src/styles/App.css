@@ -410,8 +410,38 @@ ul.about-me__extra {
     overflow: hidden;
 }
 
-.skill-card__progress-bar div {
-    width: 65%;
+.skill-card__progress-bar-html {
+    width: 90%;
+    height: inherit;
+    background: #5ccf0f;
+}
+
+.skill-card__progress-bar-css {
+    width: 80%;
+    height: inherit;
+    background: rgb(110, 202, 48);
+}
+
+.skill-card__progress-bar-js {
+    width: 70%;
+    height: inherit;
+    background: #9ECB3F;
+}
+
+.skill-card__progress-bar-react {
+    width: 70%;
+    height: inherit;
+    background: #9ECB3F;
+}
+
+.skill-card__progress-bar-bootstrap {
+    width: 70%;
+    height: inherit;
+    background: #9ECB3F;
+}
+
+.skill-card__progress-bar-php {
+    width: 70%;
     height: inherit;
     background: #9ECB3F;
 }
