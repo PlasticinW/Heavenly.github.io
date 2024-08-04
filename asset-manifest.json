@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Heavenly.github.io/static/css/main.645cc043.css",
-    "main.js": "/Heavenly.github.io/static/js/main.e1a4b9d7.js",
+    "main.css": "/Heavenly.github.io/static/css/main.9a0c2d76.css",
+    "main.js": "/Heavenly.github.io/static/js/main.8dbae965.js",
     "static/media/programming.webp": "/Heavenly.github.io/static/media/programming.6102360f13b4a10b6b8a.webp",
     "static/media/Im1.webp": "/Heavenly.github.io/static/media/Im1.da9974b9f16bc1b340ed.webp",
     "static/media/placebo.webp": "/Heavenly.github.io/static/media/placebo.b1f1a3e09a56d4de4caa.webp",
@@ -10,11 +10,11 @@
     "static/media/youtube.webp": "/Heavenly.github.io/static/media/youtube.e6eb470fea3234e0cca3.webp",
     "static/media/twitch.webp": "/Heavenly.github.io/static/media/twitch.19a908b1c176adacf264.webp",
     "index.html": "/Heavenly.github.io/index.html",
-    "main.645cc043.css.map": "/Heavenly.github.io/static/css/main.645cc043.css.map",
-    "main.e1a4b9d7.js.map": "/Heavenly.github.io/static/js/main.e1a4b9d7.js.map"
+    "main.9a0c2d76.css.map": "/Heavenly.github.io/static/css/main.9a0c2d76.css.map",
+    "main.8dbae965.js.map": "/Heavenly.github.io/static/js/main.8dbae965.js.map"
   },
   "entrypoints": [
-    "static/css/main.645cc043.css",
-    "static/js/main.e1a4b9d7.js"
+    "static/css/main.9a0c2d76.css",
+    "static/js/main.8dbae965.js"
   ]
 }
