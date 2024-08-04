@@ -282,7 +282,8 @@
     }
 
     .skills-wrapper .right {
-        display: none;
+        display: flex;
+        flex-direction: column;
     }
 
     .skills-wrapper .left {
@@ -295,13 +296,14 @@
             max-height: 0;
         }
         &[aria-hidden="false"] {
-            max-height: var(--containerHeight, 1000px);
+            max-height: var(--containerHeight, 300px);
         }
     }
 
     .skills-list__row {
         flex-direction: column;
         gap: 20px;
+        padding: 20px;
     }
     
     .skills-list__element > *:first-child {

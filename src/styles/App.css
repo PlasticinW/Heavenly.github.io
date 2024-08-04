@@ -278,11 +278,21 @@ ul.about-me__extra {
 }
 
 .skills-filters {
-    display: flex;
-    justify-content: center;
     gap: 20px;
     font-size: 18px;
     margin-bottom: 40px;
+}
+
+input[name="skills-filter-radio"] {
+    display: none;
+}
+
+input[name="skills-filter-radio"]:nth-of-type(1):checked ~ .skills-filters .skill-filter:nth-of-type(1){
+    color: var(--color-pink);
+}
+
+input[name="skills-filter-radio"]:nth-of-type(1):checked ~ .skills-wrapper:nth-of-type(2) {
+    display: flex;
 }
 
 .skill-filter {
@@ -296,7 +306,7 @@ ul.about-me__extra {
 }
 
 .skills-wrapper {
-    display: flex;
+    display: none;
     width: 80%;
     margin: 0 auto; 
 }
@@ -316,8 +326,8 @@ ul.about-me__extra {
 
 .skills-list__row {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: flex-start;
+    gap: 20px;
     width: 100%;
 }
 
@@ -712,6 +722,11 @@ a.link:hover {
 
 .active {
     color: var(--color-pink);
+}
+
+.SLEactive {
+    outline: 2px solid var(--color-pink);
+    transform: scale(105%);
 }
 
 .visibility {
