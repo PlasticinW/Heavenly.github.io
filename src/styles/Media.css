@@ -171,11 +171,11 @@
     }
 
     #hamburger {
-        display: flex;
+        display: none;
     }
 
     #hamburger:checked ~ .header-top {
-        transform: translateX(0);
+        transform: translateX(100%);
     }
       
     #hamburger:checked ~ .menu-hamburger .line1 {
@@ -198,7 +198,7 @@
         width: 50%;
         height: 100vh;
 
-        transform: translateX(100%);
+        transform: translateX(200%);
         transition: transform 0.25s ease;
 
         z-index: 1;

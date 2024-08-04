@@ -43,35 +43,43 @@ export class HeaderTop extends Component {
     }
   render(){
     return (
-        <div className="header-top fixed" id="header-top">
-            <a href="" className="link logo">Мальцев Владислав</a>
-            <nav className="navigation">
-            <ul className="menu block-center">
-                <li className="menu-element">
-                <a className="menu-element__link link active" href="#home">Главная</a>
-                </li>
-                <li className="menu-element">
-                <a className="menu-element__link link" href="#about-me">Обо&nbsp;мне</a>
-                </li>
-                <li className="menu-element">
-                <a className="menu-element__link link" href="#skills">Навыки</a>
-                </li>
-                <li className="menu-element">
-                <a className="menu-element__link link" href="#interests">Интересы</a>
-                </li>
-                <li className="menu-element">
-                <a className="menu-element__link link" href="#contact-me">Контакты</a>
-                </li>
-            </ul>
-            </nav>
-            <div className="switcher-container block-center">
-            <div className="switcher-wrapper">
-                <input type="checkbox" id="lang" defaultChecked />
-                <label className="switcher" htmlFor="lang">
-                <span>Ru</span>
-                <span>Eng</span>
-                </label>
-            </div>
+        <div>
+            <input className="checkbox" type="checkbox" name="hamburger" id="hamburger" />
+            <label className="menu-hamburger" htmlFor="hamburger" >
+            <span className="line line1"></span>
+            <span className="line line2"></span>
+            <span className="line line3"></span>
+            </label>
+            <div className="header-top fixed" id="header-top">
+                <a href="" className="link logo">Мальцев Владислав</a>
+                <nav className="navigation">
+                <ul className="menu block-center">
+                    <li className="menu-element">
+                    <a className="menu-element__link link active" href="#home">Главная</a>
+                    </li>
+                    <li className="menu-element">
+                    <a className="menu-element__link link" href="#about-me">Обо&nbsp;мне</a>
+                    </li>
+                    <li className="menu-element">
+                    <a className="menu-element__link link" href="#skills">Навыки</a>
+                    </li>
+                    <li className="menu-element">
+                    <a className="menu-element__link link" href="#interests">Интересы</a>
+                    </li>
+                    <li className="menu-element">
+                    <a className="menu-element__link link" href="#contact-me">Контакты</a>
+                    </li>
+                </ul>
+                </nav>
+                <div className="switcher-container block-center">
+                <div className="switcher-wrapper">
+                    <input type="checkbox" id="lang" defaultChecked />
+                    <label className="switcher" htmlFor="lang">
+                    <span>Ru</span>
+                    <span>Eng</span>
+                    </label>
+                </div>
+                </div>
             </div>
         </div>
     )
