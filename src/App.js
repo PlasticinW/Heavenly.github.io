@@ -1,5 +1,4 @@
 import React from 'react'
-import isMobile from 'react-device-detect'
 import HeaderTop from "./components/HeaderTop"
 import HeaderCenter from "./components/HeaderCenter"
 import AboutMe from "./components/AboutMeSection"
@@ -17,7 +16,7 @@ class App extends React.Component {
         <HeaderTop/>
         <HeaderCenter/>
         <AboutMe/>
-        {/iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? <SkillsSection/> : <MobileSkillsSection/>}
+        {/iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? <MobileSkillsSection/> : <SkillsSection/>}
         <InterestsSection/>
         <ContactMeSection/>
         <Footer/>

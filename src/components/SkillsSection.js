@@ -119,10 +119,10 @@ export class SkillsSection extends Component {
                     </div>
 
                     <div className="skill-card__progress">
-                    <span className="skill-card__progress-percent">90%</span>
-                    <div className="skill-card__progress-bar">
-                        <div className="skill-card__progress-bar-html"></div>
-                    </div>
+                        <span className="skill-card__progress-percent">90%</span>
+                        <div className="skill-card__progress-bar">
+                            <div className="skill-card__progress-bar-html"></div>
+                        </div>
                     </div>
 
                     <p className="skill-card__description">С html я знаком ещё со школы. Тогда я только начинал
